@@ -1,0 +1,89 @@
+ /*imagen de fondo*/
+ body {
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+  }
+ 
+ /*color de titulo*/
+ h1{
+    color: white;
+  letter-spacing: 5px;
+  font-size: 55px;
+  }
+
+  /*color de fondo de barra de navegacion*/
+  ul {
+    background-color: #F1F1F1;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(243, 142, 159);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /*enlace de color activa*/ 
+ .active {
+    background-color: #04AA6D;
+  }
+
+  /*esto es el pie de pagina*/
+  .footie {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  p{
+    background-color: rgba(250, 235, 215, 0.5); /*fondoo*/
+    font-size: 20px; /*tamano*/
+    width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 5px;
+    text-align: justify; /*alineacion del texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*fuente*/
+    letter-spacing: 2px; /*espaciado de letras*/
+    line-height: 1.5; /*altura de linea*/
+  }
+
+  h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+ /*estilo de formulario*/
+  div {
+    width: 300px;
+    border: 2px solid;
+    padding: 50px; /*caja*/
+    margin: 20px;
+  }
+
+  .imagen-derecha{
+    float:right;
+    width:400px;
+    height:400px;
+margin-left: 150px;
+margin-right: 100px;
+  }
